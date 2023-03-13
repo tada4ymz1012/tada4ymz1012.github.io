@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import MainTitle from '@/partials/mainTitle'
+import Menu from '@/partials/menu'
 
 export default function Home() {
   return (
@@ -8,7 +10,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <h1>my page!!</h1>
+        <MainTitle />
+        <Menu />
       </main>
     </>
   )
